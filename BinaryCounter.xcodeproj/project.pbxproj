@@ -17,6 +17,7 @@
 		B5B4D1712778ADDF00340F80 /* BinaryCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4D1702778ADDF00340F80 /* BinaryCounterUITestsLaunchTests.swift */; };
 		B5B4D1802778AF1D00340F80 /* NumbersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4D17F2778AF1D00340F80 /* NumbersListViewController.swift */; };
 		B5B4D1822778B19600340F80 /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4D1812778B19600340F80 /* NumberCell.swift */; };
+		B5B4D1842778B27D00340F80 /* NumberCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4D1832778B27D00340F80 /* NumberCellDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B5B4D1702778ADDF00340F80 /* BinaryCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B5B4D17F2778AF1D00340F80 /* NumbersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersListViewController.swift; sourceTree = "<group>"; };
 		B5B4D1812778B19600340F80 /* NumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
+		B5B4D1832778B27D00340F80 /* NumberCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCellDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				B5B4D15B2778ADDF00340F80 /* Info.plist */,
 				B5B4D17F2778AF1D00340F80 /* NumbersListViewController.swift */,
 				B5B4D1812778B19600340F80 /* NumberCell.swift */,
+				B5B4D1832778B27D00340F80 /* NumberCellDelegate.swift */,
 			);
 			path = BinaryCounter;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B4D1842778B27D00340F80 /* NumberCellDelegate.swift in Sources */,
 				B5B4D1822778B19600340F80 /* NumberCell.swift in Sources */,
 				B5B4D14E2778ADDD00340F80 /* AppDelegate.swift in Sources */,
 				B5B4D1502778ADDD00340F80 /* SceneDelegate.swift in Sources */,

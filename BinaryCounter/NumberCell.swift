@@ -8,8 +8,12 @@
 import UIKit
 
 class NumberCell: UITableViewCell {
+    
+    var delegate: NumberCellDelegate?
 
     @IBAction func plusButtonPressed(_ sender: UIButton) {
+        let amountToInt = Int(numberLabel.text!)
+        delegate?.increaseTotalBy(amount: amountToInt!)
     }
     
     @IBAction func minusButtonPressed(_ sender: UIButton) {

@@ -88,6 +88,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2it-4d-BPH" secondAttribute="bottom" constant="9" id="rZP-V0-nvB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="totalLabel" destination="2it-4d-BPH" id="ZMj-ZO-xrT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
