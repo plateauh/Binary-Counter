@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NumbersListViewController.swift
 //  BinaryCounter
 //
 //  Created by Najd Alsughaiyer on 26/12/2021.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NumbersListViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
+    
 
 }
-
