@@ -17,6 +17,8 @@ class NumberCell: UITableViewCell {
     }
     
     @IBAction func minusButtonPressed(_ sender: UIButton) {
+        let amountToInt = Int(numberLabel.text!)
+        delegate?.decreaseTotalBy(amount: amountToInt!)
     }
     
     @IBOutlet weak var numberLabel: UILabel!

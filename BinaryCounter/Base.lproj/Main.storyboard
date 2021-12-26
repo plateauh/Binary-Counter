@@ -45,20 +45,19 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZiO-ne-AhW">
-                                                    <rect key="frame" x="311" y="19" width="42" height="21"/>
+                                                    <rect key="frame" x="323" y="11.5" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="R5F-eQ-PNp" firstAttribute="top" secondItem="Yp8-f6-mGr" secondAttribute="top" constant="8" id="85M-Z5-NoW"/>
-                                                <constraint firstItem="s3X-dc-W1O" firstAttribute="leading" secondItem="Yp8-f6-mGr" secondAttribute="leading" constant="8" id="LQu-1I-FUI"/>
-                                                <constraint firstAttribute="trailing" secondItem="R5F-eQ-PNp" secondAttribute="trailing" constant="8" id="LXG-lj-RM6"/>
-                                                <constraint firstItem="s3X-dc-W1O" firstAttribute="top" secondItem="Yp8-f6-mGr" secondAttribute="top" constant="8" id="bBu-mi-965"/>
-                                                <constraint firstItem="ZiO-ne-AhW" firstAttribute="leading" secondItem="s3X-dc-W1O" secondAttribute="trailing" constant="272" id="moE-C7-Sza"/>
-                                                <constraint firstItem="R5F-eQ-PNp" firstAttribute="leading" secondItem="ZiO-ne-AhW" secondAttribute="trailing" constant="20" id="n2R-Br-Kj5"/>
-                                                <constraint firstItem="ZiO-ne-AhW" firstAttribute="top" secondItem="Yp8-f6-mGr" secondAttribute="topMargin" constant="8" id="pqw-0U-QPe"/>
+                                                <constraint firstAttribute="trailing" secondItem="R5F-eQ-PNp" secondAttribute="trailing" constant="8" id="8dz-3A-kh0"/>
+                                                <constraint firstItem="s3X-dc-W1O" firstAttribute="leading" secondItem="Yp8-f6-mGr" secondAttribute="leading" constant="8" id="KJ0-g6-WIi"/>
+                                                <constraint firstItem="s3X-dc-W1O" firstAttribute="top" secondItem="Yp8-f6-mGr" secondAttribute="top" constant="8" id="bth-Xg-zSx"/>
+                                                <constraint firstItem="R5F-eQ-PNp" firstAttribute="top" secondItem="Yp8-f6-mGr" secondAttribute="top" constant="8" id="mBF-g0-Dov"/>
+                                                <constraint firstItem="ZiO-ne-AhW" firstAttribute="centerY" secondItem="Yp8-f6-mGr" secondAttribute="centerY" id="mGd-sX-zhm"/>
+                                                <constraint firstItem="R5F-eQ-PNp" firstAttribute="leading" secondItem="ZiO-ne-AhW" secondAttribute="trailing" constant="8" symbolic="YES" id="oMh-Fa-ebV"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -89,6 +88,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="numbersTable" destination="ZAL-rI-M7y" id="dtq-MF-LO5"/>
                         <outlet property="totalLabel" destination="2it-4d-BPH" id="ZMj-ZO-xrT"/>
                     </connections>
                 </viewController>
